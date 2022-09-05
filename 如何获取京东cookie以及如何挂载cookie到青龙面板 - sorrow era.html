@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://owo.ylyg.ml/index.php/archives/25/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era</title>
+    <link rel="icon" href="https://img.tsutsu.one/i-1/2022/06/01/629744cc5da74.jpg" sizes="192x192">
+    <link href="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/kico.css" rel="stylesheet" type="text/css">
+    <link href="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/single.css" rel="stylesheet" type="text/css">
+    <link href="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+    <style>body:before{content: ''; background-image: url(https://iw233.cn/api.php?sort=pc)}</style>
+    <meta property="og:site_name" content="sorrow era">
+    <meta property="og:title" content="如何获取京东cookie以及如何挂载cookie到青龙面板">
+<meta name="description" content="废话不多说，开始上图首先，登录https://m.jd.com/这里建议是使用手机验证码登录，因为这样的cookie有效期的30天，不用频繁更换cookie之后在“我的”这个界面，点击F12（或...">
+<link rel="alternate" type="application/rss+xml" title="如何获取京东cookie以及如何挂载cookie到青龙面板 » sorrow era » RSS 2.0" href="https://owo.ylyg.ml/index.php/feed/archives/25/">
+<link rel="alternate" type="application/rdf+xml" title="如何获取京东cookie以及如何挂载cookie到青龙面板 » sorrow era » RSS 1.0" href="https://owo.ylyg.ml/index.php/feed/rss/archives/25/">
+<link rel="alternate" type="application/atom+xml" title="如何获取京东cookie以及如何挂载cookie到青龙面板 » sorrow era » ATOM 1.0" href="https://owo.ylyg.ml/index.php/feed/atom/archives/25/">
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-25'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-25'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-25'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _uMIfK1X = //'ZYv'
+'d89'+'3'//'8'
++//'Hrl'
+'36'+//'u'
+'e8'+//'cm'
+'cm'+'0'//'m'
++//'0Rz'
+'bf'+'445'//'a'
++//'ot'
+'f70'+//'wI'
+'6'+//'n'
+'0'+//'I'
+'707'+//'a'
+'9a'+'5ed'//'BN'
++''///*'f6'*/'f6'
++'3'//'l'
++//'xgK'
+'b'+//'lfs'
+'ed'+'8'//'T'
+, _HYf6 = [[8,10]];
+    
+    for (var i = 0; i < _HYf6.length; i ++) {
+        _uMIfK1X = _uMIfK1X.substring(0, _HYf6[i][0]) + _uMIfK1X.substring(_HYf6[i][1]);
+    }
+
+    return _uMIfK1X;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script></head>
+<body class="has-trees">
+<header>
+    <div class="head-title">
+        <h4>sorrow era</h4>
+    </div>
+    <div class="head-action">
+        <div class="toggle-btn"></div>
+        <div class="light-btn"></div>
+        <div class="search-btn"></div>
+    </div>
+    <form class="head-search" method="post">
+        <input type="text" name="s" placeholder="搜索什么？">
+    </form>
+    <nav class="head-menu">
+        <a href="https://owo.ylyg.ml/">首页</a>
+        <div class="has-child">
+            <a>分类</a>
+            <div class="sub-menu">
+                <a href="https://owo.ylyg.ml/index.php/category/default/">默认分类</a><a href="https://owo.ylyg.ml/index.php/category/self/">自言</a><a href="https://owo.ylyg.ml/index.php/category/tech/">技术</a><a href="https://owo.ylyg.ml/index.php/category/thought/">思考</a><a href="https://owo.ylyg.ml/index.php/category/study/">学习</a><a href="https://owo.ylyg.ml/index.php/category/note/">笔记</a>            </div>
+        </div>
+        <a href="https://owo.ylyg.ml/index.php/start-page.html">关于</a><a href="https://owo.ylyg.ml/index.php/22.html">王洪英的灵堂</a>        <a href="https://owo.ylyg.ml/admin/" target="_blank">进入后台</a>
+    </nav>
+</header>
+<main>
+    <div class="wrap min">
+        <section class="post-title">
+            <h2>如何获取京东cookie以及如何挂载cookie到青龙面板</h2>
+            <a class="edit-link" href="https://owo.ylyg.ml/admin/write-post.php?cid=25" target="_blank">编辑</a>
+            <div class="post-meta">
+                <time class="date">2022-07-06</time>
+                <span class="category"><a href="https://owo.ylyg.ml/index.php/category/default/">默认分类</a></span>
+                <span class="tags">暂无</span>
+                <span class="comments">0</span>
+            </div>
+        </section>
+        <article class="post-content">
+            <p>废话不多说，开始上图</p><p>首先，登录<a href="https://m.jd.com/" target="_blank">https://m.jd.com/</a></p><p><img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/128048364.png" alt="https//owoylygml/usr/uploads/2022/07/128048364png" ks-image="active"></p><h3 class="atx" id="title-1"><strong>这里建议是使用手机验证码登录，因为这样的cookie有效期的30天，不用频繁更换cookie</strong></h3><p>之后在“我的”这个界面，点击F12（或者fn+F12）,调出google控制台</p><p><img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/1657097750546449.png" alt="" ks-image="active"></p><p>如图所示，先点开1（network），再电开2（log开头的东西），红圈里的三个其实都是一样的，不用费心选择哪个</p><p>如果没有看到2的话，先点击一下<img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/1657097750719666.png" alt="" ks-image="active"></p><p>清除缓存，再按F5刷新一下，慢慢向下滑动，肯定会出现</p><p><img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/1657097751783107.png" alt="" ks-image="active"></p><p>如上图所示，点击header，并下滑找到开头为cookie的那一串代码，cookie后面的全部复制，后面要用到</p><p>然后再点击控制台中的console</p><p>最下行输入如下代码，并且将原来获取到的cookie粘贴到里面</p><pre>var&nbsp;CV&nbsp;=&nbsp;'单引号里面放cookie';
+var&nbsp;CookieValue&nbsp;=&nbsp;CV.match(/pt_pin=.+?;/)&nbsp;+&nbsp;CV.match(/pt_key=.+?;/);
+copy(CookieValue);</pre><p>如图</p><p><img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/1657097751874750.png" alt="" ks-image="active"></p><p>之后点击<strong>enter</strong></p><p>你就会发现所需要的cookie已经在剪切板里面了</p><p>保存好获取的cookie，登录你的青龙面板，一般是ip:5700</p><p>点开环境变量，点击JD_COOKIE</p><p>在“值”这一栏输入刚才获取的cookie</p><p><img src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/1657097752453866.png" alt="" ks-image="active"></p><p>如果是多账号话，记得按上图进行分割。</p><p>最后按“确定”，保存成功，OK。结束</p><p>Bye then</p><p><br></p>        </article>
+        <section class="post-near">
+            <ul>
+                <li>上一篇: <a href="https://owo.ylyg.ml/index.php/archives/23/" title=" 内卷宣言">&nbsp;内卷宣言</a></li>
+                <li>下一篇: <a href="https://owo.ylyg.ml/index.php/archives/26/" title=" 勿以利小而为之">&nbsp;勿以利小而为之</a></li>
+            </ul>
+        </section>
+        <section class="post-author">
+            <figure class="author-avatar">
+                <img src="https://secure.gravatar.com/avatar/3b7fbaa96f5f17240795043667626d88?s=200&amp;r=X" alt="zhou" width="200" height="200">            </figure>
+            <div class="author-info">
+                <h4>zhou</h4>
+                <p>一个鄢陵一高的废物</p>
+            </div>
+        </section>
+        
+
+<section class="post-comments">
+    <h3>没有评论</h3>
+    <div class="comment-form" id="respond-post-25">
+        <span class="cancel-comment-reply">
+            <a id="cancel-comment-reply-link" href="https://owo.ylyg.ml/index.php/archives/25/#respond-post-25" rel="nofollow" style="display:none" onclick="if (!window.__cfRLUnblockHandlers) return false; return TypechoComment.cancelReply();">取消回复</a>        </span>
+        <form method="post" action="https://owo.ylyg.ml/index.php/archives/25/comment" role="form">
+            <fieldset>
+                <p>欢迎回来，<a href="https://owo.ylyg.ml/admin/profile.php">zhou</a>！不是你？<a href="https://owo.ylyg.ml/index.php/action/logout?_=d89336e80bf445f70607079a5ed3bed8">登出</a></p>
+                <textarea rows="2" name="text" id="textarea" placeholder="快来评论支持吧 (*≧ω≦)ﾉ" title="如发布虚假信息或广告，将无法通过审核" required=""></textarea>
+                <button type="submit" class="btn">写好了~</button>
+            </fieldset>
+        <input type="hidden" name="_" value="d89336e80bf445f70607079a5ed3bed8"></form>
+    </div>
+
+
+</section>    <section class="article-list"><h4><span class="title">目录</span></h4><a href="https://owo.ylyg.ml/index.php/archives/25/#title-1" class="item-3">这里建议是使用手机验证码登录，因为这样的cookie有效期的30天，不用频繁更换cookie</a></section></div>
+</main>
+
+
+<footer>
+    <div class="buttons">
+        <a class="to-top" href="https://owo.ylyg.ml/index.php/archives/25/#"></a>
+    <a class="toggle-list"></a></div>
+    <div class="wrap min">
+        <section class="widget">
+            <div class="row">
+                <div class="col-m-4">
+                    <h3 class="title-recent">最新文章：</h3>
+                    <ul>
+                        <li><a href="https://owo.ylyg.ml/index.php/archives/28/" target="_blank"></a></li><li><a href="https://owo.ylyg.ml/index.php/archives/27/" target="_blank">对数计算忘完了</a></li><li><a href="https://owo.ylyg.ml/index.php/archives/26/" target="_blank">&nbsp;勿以利小而为之</a></li><li><a href="https://owo.ylyg.ml/index.php/archives/25/" target="_blank">如何获取京东cookie以及如何挂载cookie到青龙面板</a></li><li><a href="https://owo.ylyg.ml/index.php/archives/23/" target="_blank">&nbsp;内卷宣言</a></li><li><a href="https://owo.ylyg.ml/index.php/archives/21/" target="_blank">太烧啦(3)</a></li>                    </ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-date">时光机：</h3>
+                    <ul>
+                        <li><a href="https://owo.ylyg.ml/index.php/2022/07/" rel="nofollow" target="_blank">2022 年 07 月</a></li><li><a href="https://owo.ylyg.ml/index.php/2022/06/" rel="nofollow" target="_blank">2022 年 06 月</a></li>                    </ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-comments">最近评论：</h3>
+                    <ul>
+                                                                            <li>可不是: <a href="https://owo.ylyg.ml/index.php/archives/21/#comment-3" rel="nofollow" target="_blank">哈哈哈哈哈</a></li>
+                                                    <li>zhou: <a href="https://owo.ylyg.ml/index.php/archives/11/#comment-2" rel="nofollow" target="_blank">第一条评论！</a></li>
+                                                    <li>Typecho: <a href="https://owo.ylyg.ml/index.php/archives/1/#comment-1" rel="nofollow" target="_blank">欢迎加入 Ty...</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sub-footer">
+            <p>© 2022 <a href="https://owo.ylyg.ml/">sorrow era</a>. All Rights Reserved. Theme By <a href="https://github.com/Dreamer-Paul/Single" target="_blank" rel="nofollow">Single</a>.</p>
+        </section>
+    </div>
+</footer>
+
+<script src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/kico.js.下载" type="text/javascript"></script>
+<script src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/single.js.下载" type="text/javascript"></script>
+<script src="./如何获取京东cookie以及如何挂载cookie到青龙面板 - sorrow era_files/prism.js.下载" type="text/javascript"></script>
+<script type="text/javascript">var single = new Paul_Single({copyright: true, night: true});</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DKB4K1P99D" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKB4K1P99D');
+</script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;745f3528d8408950&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;ca9a037a937e465e92e92d6423cb5599&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+</body></html>
